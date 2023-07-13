@@ -74,7 +74,7 @@ const Index = () => {
                 <p>Coming soon</p>
               </div>
             </div>
-            <p className="project-caption">Other</p>
+            <p className="project-caption"></p>
           </div>
         </div>
         {/* CONTACT LINK */}

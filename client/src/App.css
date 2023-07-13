@@ -96,7 +96,7 @@ a {
 	font-weight: 300;
 	text-align: center;
 	color: var(--color-1);
-	text-shadow: 0 3px 2px var(--color-4);
+	text-shadow: 0 3px 2px var(--color-5);
 }
 
 .titleSpan {
@@ -342,42 +342,6 @@ a {
 	}
 }
 
-/* FOOTER */
-#footer-container {
-	height: auto;
-	background: var(--color-4);
-	flex-shrink: 0;
-	box-shadow: 0 -1px 0 var(--color-5);
-	z-index: 10;
-}
-
-footer {
-	margin: auto;
-	padding: 30px;
-	height: 100%;
-	width: 100%;
-	max-width: 1200px;
-	display: flex;
-	flex-direction: row;
-	justify-content: end;
-	font-size: 14px;
-	color: var(--color-1);
-}
-
-footer a {
-	color: var(--color-5);
-}
-
-@media (max-width: 600px) {
-	footer {
-		padding: 20px;
-	}
-
-	footer p {
-		font-size: 12px;
-	}
-}
-
 /* Profile Image */
 .border {
 	height: 369px;
@@ -428,4 +392,40 @@ footer a {
 	margin-left: -10px;
 	opacity: 0;
 	transition: all .6s ease;
+}
+
+/* FOOTER */
+#footer-container {
+	height: auto;
+	background: var(--color-4);
+	flex-shrink: 0;
+	box-shadow: 0 -1px 0 var(--color-5);
+	z-index: 10;
+}
+
+footer {
+	margin: auto;
+	padding: 30px;
+	height: 100%;
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	font-size: 14px;
+	color: var(--color-1);
+}
+
+footer a {
+	color: var(--color-5);
+}
+
+@media (max-width: 600px) {
+	footer {
+		padding: 20px;
+	}
+
+	footer p {
+		font-size: 12px;
+	}
 }
