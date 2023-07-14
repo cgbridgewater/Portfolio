@@ -1,3 +1,5 @@
+
+const resume = require(`../Assets/Images/ChrisBridgewater_resume_image.jpg`);
 const getOutside = require(`../Assets/Images/getOutside.png`);
 const candyShop = require(`../Assets/Images/candyShop.png`);
 const petShelter = require(`../Assets/Images/petShelter.png`);
@@ -8,7 +10,7 @@ const Index = () => {
 
   return (
 
-    <div>
+    <div className="main-container">
       {/* NAV BAR*/}
       <nav id="navbar">
         <ul>
@@ -37,35 +39,35 @@ const Index = () => {
             <a href="http://52.33.105.171/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={candyShop} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Candy Shop</p>
+            <p className="project-caption">Candy Shop (MERN)</p>
           </div>
           {/* project 2 */}
           <div className="project-tile">
             <a href="http://54.201.23.108/getoutside" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={getOutside} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Get Outside</p>
+            <p className="project-caption">Get Outside (Python)</p>
           </div>
           {/* project 3 */}
           <div className="project-tile">
             <a href="http://34.218.236.175/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={petShelter} alt="webpage screen"/>  
             </a>
-            <p className="project-caption">Pet Shelter</p>
+            <p className="project-caption">Pet Shelter (MERN)</p>
           </div>
           {/* project 4 */}
           <div className="project-tile">
             <a href="http://35.88.143.101/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={tetris} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Tetris PC Mini Game</p>
+            <p className="project-caption">Tetris PC Mini Game (React.js)</p>
           </div>
           {/* project 5 */}
           <div className="project-tile">
-            <a href="#" target="_blank" rel="noreferrer noopener">
+            <a href="#placeholder" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={drawIt} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Draw It PC Mini Game</p>
+            <p className="project-caption">Draw It PC Mini Game (React.js)</p>
           </div>
           {/* project 6 */}
           <div className="project-tile">
@@ -74,7 +76,7 @@ const Index = () => {
                 <p>Coming soon</p>
               </div>
             </div>
-            <p className="project-caption"></p>
+            <p className="project-caption">C# Project</p>
           </div>
         </div>
         {/* CONTACT LINK */}
@@ -95,7 +97,18 @@ const Index = () => {
             <li><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener"><i className="fab fa-github-square"></i>GitHub</a></li>
             <li><a href="https://www.instagram.com/cgbridgewater/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram-square"></i>Instagram</a></li>
             <li><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact"><i className="fas fa-envelope"></i>Email</a></li>
-            <li><a href="#"><i className="fas fa-file-alt" style={{color:"#EB6028"}}></i>Resume</a></li>
+            {/* botton to trigger pop-up */}
+            <li><a href="#popup" ><i className="fas fa-file-alt" style={{color:"#EB6028"}}></i>Résumé</a></li>
+            {/* pop up */}
+            <div id="popup" className="overlay">
+                <div className="popup">
+                    <a id="close" href="#contact-section">&times;</a>
+                    <div className="content">
+                        <img className="resume" src={resume} alt="resume" />
+                    </div>
+                </div>
+            </div>
+
           </ul>
           {/* MEDIA LINKS END */}
           {/* PROFILE IMAGE */}
