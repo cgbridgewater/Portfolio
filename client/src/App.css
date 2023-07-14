@@ -59,22 +59,25 @@ a {
 
 #navbar a:hover i {
 	color: var(--color-5);
+	transition:  0.5s;
 }
 
 @media (max-width: 600px) {
 	#navbar ul {
 		justify-content: center;
+		transition:  0.5s;
 	}
 	#navbar a {
 		padding: 15px 5vw;
 		font-size: 14px;
+		transition:  0.5s;
 	}
 }
 
 /* WELCOME SECTION */
 #welcome-section {
 	padding: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 15px;
 	height: 100vh;
 	min-height: 500px;
 	display: grid;
@@ -147,6 +150,11 @@ a {
 		font-size: 16px;
 		transition:  0.3s;
 	}
+}
+@media (max-width: 400px) {
+	#welcome-section h1 {
+	font-size: 40px;
+	transition:  0.5s;	}
 }
 
 /* PROJECTS */
@@ -306,28 +314,42 @@ a {
 @media (max-width: 850px) {
 	#contact-section {
 		min-height: 820px;
+		transition:  0.5s;
 	}
 	#contact h2 {
 		font-size: 40px;
+		transition:  0.5s;
 	}
 	#contact h3 {
 		font-size: 16px;
+		transition:  0.5s;
 	}
 	#links-list {
 		flex-direction: column;
+		transition:  0.5s;
 	}
 	#links-list li {
 		padding: 10px 40px;
 		font-size: 20px;
+		transition:  0.5s;
 	}
 }
 
 @media (max-width: 600px) {
 	#contact h2 {
-		font-size: 30px;
+		font-size: 38px;
+		transition:  0.5s;
 	}
 	#links-list li {
-	font-size: 16px;
+	font-size: 18px;
+	transition:  0.5s;
+	}
+}
+
+@media (max-width: 400px) {
+	#contact h3 {
+		margin-top: 5px;
+		transition:  0.5s;
 	}
 }
 
@@ -411,10 +433,12 @@ footer a {
 @media (max-width: 600px) {
 	footer {
 		padding: 20px;
+		transition:  0.5s;
 	}
 
 	footer p {
 		font-size: 12px;
+		transition:  0.5s;
 	}
 }
 
