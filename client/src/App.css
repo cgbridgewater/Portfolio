@@ -150,7 +150,7 @@ a {
 
 @media (max-width: 400px) {
 	#welcome-section {
-		background-size:auto;
+		background-size: inherit;
 		transition:  0.5s;	
 	}
 	.titleSpan {
