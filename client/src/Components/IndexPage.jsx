@@ -67,9 +67,9 @@ const Index = () => {
           </div>
           {/* project 5 */}
           <div className="project-tile">
-            <a href="#placeholder" target="_blank" rel="noreferrer noopener">
+            <div className="placeholder-img">
               <img className="webpage-img" src={drawIt} alt="webpage screen"/>
-            </a>
+            </div>
             <p className="project-caption">Draw It PC Mini Game (React.js)</p>
             <p className="project-caption2">Solo Project</p>
           </div>
