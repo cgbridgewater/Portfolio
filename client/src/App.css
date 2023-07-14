@@ -403,9 +403,7 @@ footer a {
 	}
 }
 
-
 /*Resume Popup*/
-
 .popup {
     margin: 5% auto;
     transition: all .25s ease-in-out;
@@ -418,6 +416,7 @@ footer a {
     border-radius: 10px;
 	background-color: var(--color-0) ;
 }
+
 .popup::-webkit-scrollbar{
 	display: none;
 }
@@ -470,17 +469,6 @@ footer a {
 	transition: all .5s ease-in-out;
 
 }
-/* #close{
-    position: absolute;
-    top: 11%;
-    right: 16%;
-    transition: all .4;
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: none;
-    z-index: 9999;
-    color:var(--color-4);
-} */
 
 #close:hover{
     color:var(--color-5);
