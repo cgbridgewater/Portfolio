@@ -85,7 +85,7 @@ const Index = () => {
           </div>
         </div>
         {/* CONTACT LINK */}
-        <br /><a id="link-to-projects" href="#contact"><i className="fa-solid fa-angle-down fa-bounce fa-2xl" style={{color:"#eb6028"}}></i></a>
+        <a id="link-to-projects" href="#contact"><i className="fa-solid fa-angle-down fa-bounce fa-2xl" style={{color:"#eb6028"}}></i></a>
         {/* CONTACT LINK END */}
       </section>
       {/* PROJECT END */}
