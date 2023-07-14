@@ -191,6 +191,13 @@ a {
 	
 }
 
+.project-caption2 {
+	margin-top: 5px;
+	font-size: 18px;
+	color: var(--color-3);
+	
+}
+
 .webpage-img {
 	display: block;
 	height: 100%;
@@ -229,7 +236,7 @@ a {
 /* CONTACT */
 #contact-section {
 	height: 100vh;
-	min-height: 675px;
+	min-height: 700px;
 	background: var(--color-3);
 	text-align: center;
 	display: flex;

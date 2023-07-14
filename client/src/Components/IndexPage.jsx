@@ -35,10 +35,11 @@ const Index = () => {
         <div id="projects-gallery">
           {/* project 1 */}
           <div className="project-tile">
-            <a href="http://52.33.105.171/" target="_blank" rel="noreferrer noopener">
-              <img className="webpage-img" src={candyShop} alt="webpage screen"/>
+            <a href="http://34.218.236.175/" target="_blank" rel="noreferrer noopener">
+              <img className="webpage-img" src={petShelter} alt="webpage screen"/>  
             </a>
-            <p className="project-caption">Candy Shop (MERN)</p>
+            <p className="project-caption">Pet Shelter (MERN)</p>
+            <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 2 */}
           <div className="project-tile">
@@ -46,13 +47,15 @@ const Index = () => {
               <img className="webpage-img" src={getOutside} alt="webpage screen"/>
             </a>
             <p className="project-caption">Get Outside (Python)</p>
+            <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 3 */}
           <div className="project-tile">
-            <a href="http://34.218.236.175/" target="_blank" rel="noreferrer noopener">
-              <img className="webpage-img" src={petShelter} alt="webpage screen"/>  
+            <a href="http://52.33.105.171/" target="_blank" rel="noreferrer noopener">
+              <img className="webpage-img" src={candyShop} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Pet Shelter (MERN)</p>
+            <p className="project-caption">Candy Shop (MERN)</p>
+            <p className="project-caption2">Group Project</p>
           </div>
           {/* project 4 */}
           <div className="project-tile">
@@ -60,6 +63,7 @@ const Index = () => {
               <img className="webpage-img" src={tetris} alt="webpage screen"/>
             </a>
             <p className="project-caption">Tetris PC Mini Game (React.js)</p>
+            <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 5 */}
           <div className="project-tile">
@@ -67,6 +71,7 @@ const Index = () => {
               <img className="webpage-img" src={drawIt} alt="webpage screen"/>
             </a>
             <p className="project-caption">Draw It PC Mini Game (React.js)</p>
+            <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 6 */}
           <div className="project-tile">
@@ -76,6 +81,7 @@ const Index = () => {
               </div>
             </div>
             <p className="project-caption">C# Project</p>
+            <p className="project-caption2">&nbsp;</p>
           </div>
         </div>
         {/* CONTACT LINK */}
