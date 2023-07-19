@@ -163,8 +163,6 @@ a {
 	#welcome-section {
 		background-image: url("./Assets/Images/codewallpaper.jpg");
 		/* background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg"); */
-		background-size:cover;
-		background-size: 450px 940px;
 		transition:  0.5s;	
 	}
 	#welcome-section h1 {
