@@ -161,8 +161,18 @@ a {
 
 @media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg");
-		background-position: center center;
+		/* background-image: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg"); */
+		width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        background: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg") no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 		transition:  0.5s;	
 	}
 	#welcome-section h1 {
