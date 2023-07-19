@@ -161,7 +161,7 @@ a {
 
 @media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("./Assets/Images/codeBackground-mod.png");
+		background-image: url("./Assets/Images/CodingBackground.png");
 		/* background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg"); */
 		/* background-size:auto; */
 		transition:  0.5s;	
