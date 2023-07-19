@@ -15,9 +15,9 @@ const Index = () => {
       {/* NAV BAR*/}
       <nav id="navbar">
         <ul>
-          <li><a className="section-link" href="#welcome-section"><i className="fas fa-chevron-right"></i>Welcome</a></li>
-          <li><a className="section-link" href="#projects"><i className="fas fa-chevron-right"></i>Projects</a></li>
-          <li><a className="section-link" href="#contact-section"><i className="fas fa-chevron-right"></i>Contact</a></li>
+          <li><a className="section-link" href="#welcome-section"><span className="desktop-only"><i className="fas fa-chevron-right"></i></span>Welcome</a></li>
+          <li><a className="section-link" href="#projects"><span className="desktop-only"><i className="fas fa-chevron-right"></i></span>Projects</a></li>
+          <li><a className="section-link" href="#contact-section"><span className="desktop-only"><i className="fas fa-chevron-right"></i></span>Contact</a></li>
         </ul>
       </nav>
       {/* NAV BAR END*/}

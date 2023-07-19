@@ -66,6 +66,7 @@ a {
 	#navbar ul {
 		justify-content: center;
 		transition:  0.5s;
+		padding: 0;
 	}
 	#navbar a {
 		padding: 15px 5vw;
@@ -78,7 +79,7 @@ a {
 #welcome-section {
 	padding: 10px;
 	padding-bottom: 15px;
-	height: 100vh;
+	height: 100dvh;
 	min-height: 500px;
 	display: grid;
 	grid-template-rows: 1fr auto auto 1fr;
@@ -151,6 +152,7 @@ a {
 @media (max-width: 420px) {
 	#welcome-section {
 		background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg");
+		background-size:auto;
 		transition:  0.5s;	
 	}
 	.titleSpan {
@@ -167,7 +169,7 @@ a {
 #projects {
 	padding-top: 80px;
 	padding-bottom: 20px;
-	min-height: 100vh;
+	min-height: 100dvh;
 	background: var(--color-1);
 	text-align: center;
 }
@@ -253,7 +255,7 @@ a {
 
 /* CONTACT */
 #contact-section {
-	height: 100vh;
+	height: 100dvh;
 	min-height: 700px;
 	background: var(--color-3);
 	text-align: center;
@@ -273,7 +275,8 @@ a {
 }
 
 #contact h2 {
-	padding: 10px;
+	margin: 0;
+	padding: 10px 0 0 0;
 	font-family: var(--font-em);
 	font-size: 50px;
 	font-weight: 300;
@@ -282,7 +285,8 @@ a {
 }
 
 #contact h3 {
-	margin-top: 20px;
+	margin:0;
+	margin-top: 15px;
 	padding: 10px;
 	font-size: 18px;
 	font-weight: 300;
@@ -295,6 +299,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	padding: 0;
 }
 
 #links-list li {
@@ -332,7 +337,11 @@ a {
 		transition:  0.5s;
 	}
 	#links-list {
-		flex-direction: column;
+		/* flex-direction: column; */
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 0 10px;
+		padding: 0 10px;
 		transition:  0.5s;
 	}
 	#links-list li {
@@ -356,6 +365,10 @@ a {
 @media (max-width: 400px) {
 	#contact h3 {
 		margin-top: 5px;
+		transition:  0.5s;
+	}
+	#links-list li {
+		font-size: 16px;
 		transition:  0.5s;
 	}
 }
@@ -448,103 +461,3 @@ footer a {
 		transition:  0.5s;
 	}
 }
-
-/*Resume Popup*/
-/* .popup {
-    margin: 5% auto;
-    transition: all .25s ease-in-out;
-    z-index: 9995;
-    width: 70%;
-	height:70%;
-    min-width: 375px;
-    overflow: auto;
-    border:3px solid var(--color-5);
-    border-radius: 10px;
-	background-color: var(--color-0) ;
-}
-
-.popup::-webkit-scrollbar{
-	display: none;
-}
-
-.content {
-	background-position:top center;
-	background-repeat: no-repeat;
-	background-size: 80%;
-	margin: 0 auto;
-}
-
-.resume {
-	margin-top: -50px;
-	width: 100%;
-	height: 90%;
-	overflow: hidden;
-}
-
-.overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-}
-
-.overlay:target {
-	visibility: visible;
-    opacity: 1;
-    z-index: 999;
-}
-
-.main-container{
-	overflow: hidden;
-}
-
-#close{
-    position: fixed;
-    margin-left: 32%;
-    transition: all .4;
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: none;
-    z-index: 9999;
-    color:var(--color-4);
-	transition: all .5s ease-in-out;
-
-}
-
-#close:hover{
-    color:var(--color-5);
-}
-
-@media screen and (max-width: 1000px){
-    .popup{
-        width: 95%;
-		min-width: 375px;
-		height:60%;
-		transition: 500ms;
-    }
-	#close{
-		right:5%;
-		top: 6%;
-		transition: 500ms;
-	}
-}
-
-@media screen and (max-width: 700px){
-    .popup{
-        width: 95%;
-		min-width: 375px;
-		height:60%;
-		transition: all .5s ease-in-out;
-
-    }
-	#close{
-		right:4%;
-		top: 4%;
-		transition: all .5s ease-in-out;
-	}
-} */
