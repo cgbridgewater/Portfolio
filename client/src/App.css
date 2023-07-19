@@ -161,8 +161,8 @@ a {
 
 @media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("https://wallpaperaccess.com/full/796832.jpg");
-		background-size: cover;
+		background-image: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg");
+		background-position: center left;
 		transition:  0.5s;	
 	}
 	#welcome-section h1 {
