@@ -161,9 +161,8 @@ a {
 
 @media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("./Assets/Images/codewallpaper.jpg");
+		background-image: url("https://i.pinimg.com/originals/f3/dd/5a/f3dd5a82458255bcfa988952d20c45dc.png");
 		/* background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg"); */
-		background-size: 100dvw, 100dvh;
 		transition:  0.5s;	
 	}
 	#welcome-section h1 {
