@@ -449,7 +449,7 @@ footer a {
 }
 
 /*Resume Popup*/
-.popup {
+/* .popup {
     margin: 5% auto;
     transition: all .25s ease-in-out;
     z-index: 9995;
@@ -546,4 +546,4 @@ footer a {
 		top: 4%;
 		transition: all .5s ease-in-out;
 	}
-}
+} */

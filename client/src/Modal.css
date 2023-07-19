@@ -1,0 +1,109 @@
+@media only screen and (min-width:498px) {
+    .mobile-only {
+        display:none !important;
+    }
+}
+
+@media (max-width: 4000px) {
+    .name{
+        font-size: 2.6rem;
+        transition: .25s;
+    }
+    .devTitle{
+        font-size: 1.7rem;
+        transition: .25s;
+    }
+    .h4Header{
+        font-size: 1.5rem;
+        transition: .25s;
+    }
+    .h5Text{
+        font-size: 1.3rem;
+        transition: .25s;
+    }
+    .pText {
+        font-size: 1.1;
+        margin: 0;
+        padding:0;
+        transition: .25s;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .name{
+        font-size: 2.3rem;
+        transition: .25s;
+    }
+    .devTitle{
+        font-size: 1.6rem;
+        transition: .25s;
+    }
+    .h4Header{
+        font-size: 1.4rem;
+        transition: .25s;
+    }
+    .h5Text{
+        font-size: 1.2rem;
+        transition: .25s;
+    }
+    .pText {
+        font-size: 1.0;
+        margin: 0;
+        padding:0;
+        transition: .25s;
+    }
+}
+
+@media (max-width: 800px) {
+    .name{
+        font-size: 2rem;
+        transition: .25s;
+    }
+    .devTitle{
+        font-size: 1.5rem;
+        transition: .25s;
+    }
+    .h4Header{
+        font-size: 1.3rem;
+        transition: .25s;
+    }
+    .h5Text{
+        font-size: 1.1rem;
+        transition: .25s;
+    }
+    .pText {
+        font-size: .95;
+        margin: 0;
+        padding:0;
+        transition: .25s;
+    }
+}
+
+@media only screen and (max-width:499px) {
+    .desktop-only {
+        display:none !important;
+    }
+    .name{
+        font-size: 1.8rem;
+        transition: .25s;
+    }
+    .devTitle{
+        font-size: 1.4rem;
+        transition: .25s;
+    }
+    .h4Header {
+        font-size: 1.2rem;
+        transition: .25s;
+    }
+    .h5Text {
+        font-size: 1.0rem;
+        transition: .25s;
+    }
+    .pText {
+        font-size: 0.9rem;
+        margin: 0;
+        padding:0;
+        transition: .25s;
+    }
+}
