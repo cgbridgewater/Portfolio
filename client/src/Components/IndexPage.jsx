@@ -64,7 +64,7 @@ const Index = () => {
             <a href="http://35.88.143.101/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={tetris} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Tetris PC Mini Game (React.js)</p>
+            <p className="project-caption">Tetris - PC Mini Game (React.js)</p>
             <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 5 */}
@@ -72,7 +72,7 @@ const Index = () => {
             <a href="http://52.38.15.176/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={drawIt} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Draw It PC Mini Game (React.js)</p>
+            <p className="project-caption">Draw It! - Mini Game (React.js)</p>
             <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 6 */}
