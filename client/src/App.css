@@ -105,6 +105,9 @@ a {
 }
 
 .titleSpan {
+	font-size:40px;
+}
+.titleSpan2 {
 	font-size:30px;
 }
 
@@ -130,7 +133,6 @@ a {
 	padding: 0 10px;
 	width: auto;
 	grid-row: 5;
-	/* align-self: flex-end; */
 	text-align: center;
 	font-size: 40px;
 	color: var(--color-5);
@@ -138,10 +140,18 @@ a {
 	transition: transform 0.3s;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
 	#welcome-section h1 {
-	font-size: 42px;
+	font-size: 48px;
 	transition:  0.3s;
+	}
+	.titleSpan {
+		font-size:30px;
+		transition:  0.5s;	
+	}
+	.titleSpan2 {
+		font-size:24px;
+		transition:  0.5s;	
 	}
 	#link-to-contact {
 		font-size: 16px;
@@ -149,19 +159,25 @@ a {
 	}
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg");
-		background-size:auto;
+		background-image: url("./Assets/Images/codeBackground-modified.jpg");
+		/* background-image: url("https://i.postimg.cc/Gp1CKLQF/florian-olivo-4hb-J-eym-Z1o-unsplash-modified.jpg"); */
+		/* background-size:auto; */
 		transition:  0.5s;	
+	}
+	#welcome-section h1 {
+	font-size: 40px;
+	padding: 20px 15px;
+	transition:  0.5s;	
 	}
 	.titleSpan {
 		font-size:26px;
 		transition:  0.5s;	
 	}
-	#welcome-section h1 {
-	font-size: 38px;
-	transition:  0.5s;	
+	.titleSpan2 {
+		font-size:20px;
+		transition:  0.5s;	
 	}
 }
 
@@ -255,7 +271,7 @@ a {
 
 /* CONTACT */
 #contact-section {
-	height: 100dvh;
+	height: 95dvh;
 	min-height: 700px;
 	background: var(--color-3);
 	text-align: center;
@@ -435,7 +451,7 @@ a {
 
 footer {
 	margin: auto;
-	padding: 30px;
+	padding: 25px;
 	height: 100%;
 	width: 100%;
 	max-width: 1200px;
@@ -446,7 +462,8 @@ footer {
 	color: var(--color-1);
 }
 
-footer a {
+footer p {
+	margin:0;
 	color: var(--color-5);
 }
 

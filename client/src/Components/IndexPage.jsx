@@ -1,6 +1,5 @@
 import ResumeModal from "./ResumeModal";
 
-const resume = require(`../Assets/Images/ChrisBridgewater_resume_image.jpg`);
 const getOutside = require(`../Assets/Images/getOutside.png`);
 const candyShop = require(`../Assets/Images/candyShop.png`);
 const petShelter = require(`../Assets/Images/petShelter.png`);
@@ -24,8 +23,8 @@ const Index = () => {
       {/* WELCOME */}
       <section id="welcome-section">
         <h1>Chris Bridgewater <br />
-        Full Stack Web Developer
-        <br /><span className="titleSpan">MERN / Java / Python</span>
+        <span className="titleSpan">Full Stack Web Developer</span>
+        <br /><span className="titleSpan2">MERN / Java / Python</span>
         </h1>
         <a id="link-to-contact" href="#contact-section">Contact me</a>
         <a id="link-to-projects" href="#projects"><i className="fa-solid fa-angle-down fa-bounce fa-2xl" style={{color:"#eb6028"}}></i></a>
