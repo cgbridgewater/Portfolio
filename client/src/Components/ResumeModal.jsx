@@ -34,7 +34,7 @@ const ResumeModal = () =>{
                 <Modal.Title ><h1 style={{color:"#FFFBF0"}} className="name p-2 m-0"><b><em>Chris Bridgewater</em></b></h1>
                 </Modal.Title>
                 </Modal.Header>
-                <Modal.Body classname="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>
+                <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>
                     {/* WEB DEV TITLE AND CONTACTS */}
                     <Stack direction="horizontal" gap={1}>
                         <h3 className="devTitle ps-2 mb-0" style={{color:"#EB6028"}}><b>FULL STACK DEVELOPER</b></h3>
