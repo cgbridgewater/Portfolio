@@ -73,7 +73,7 @@ const ResumeModal = () =>{
                         <p className="pText ps-2 align-self-start">
                             <b>Languages:</b> Java, JavaScript (ES6, Node.js), <br/>Python, SQL, HTML5, CSS <br/>
                             <br/>
-                            <b>Frameworks/Libraries:</b> React.js, Express.js, <br/>Apache Tomcat, MVC, Flask, Bootstrap, Paypal
+                            <b>Frameworks/Libraries:</b> React.js, Express.js, <br/>Apache Tomcat, MVC, Flask, Bootstrap, PayPal
                         </p>
                         <br />
                         <p className="pText ps-2 align-self-start text-start">
@@ -150,7 +150,7 @@ const ResumeModal = () =>{
                             <p className="pText">Developed staff pages, allowing staff to create, update and delete pet listings and fundraising events from the site. Along with viewing submitted adoption requests</p>
                         </li>
                         <li>
-                            <p className="pText">Integrated API's from Google Maps to display shelter locations and display GitHub data</p>
+                            <p className="pText">Integrated APIs from Google Maps to display shelter locations and display GitHub data</p>
                         </li>
                         <li>
                             <p className="pText">Developed a interactive UI utilizing the React.js single-page ability. Using features such as custom on page sorting, filtering, pop-up forms, clickable/on-hover animations and page loading animations, while ensuring viewing is optimized for all screen sizes with a responsive page layout</p>
@@ -161,7 +161,7 @@ const ResumeModal = () =>{
                         <h5 className="h5Text ps-2 align-self-start" style={{minWidth:"140px"}}><b>Ninja Blocks</b><span className="mobile-only"><br/></span><span className="desktop-only"> | </span><a href="http://35.88.143.101/" target="_blank" rel="noreferrer noopener">Live</a> | <a href="https://github.com/cgbridgewater/MyTetris" target="_blank" rel="noreferrer noopener">Github</a></h5>
                         <h5 className="h5Text pe-2 ms-auto align-self-start text-end">Tech Stack:<span className="mobile-only"><br/></span> React.js</h5>
                     </Stack>
-                    <h5 className="h5Text p-2"><em className="h5Text p-2">A Tetris inspided single player game created for desktop use</em></h5>
+                    <h5 className="h5Text p-2"><em className="h5Text p-2">A Tetris inspired single player game created for desktop use</em></h5>
                     <ul>
                         <li>
                             <p className="pText">Architected a single page app using React.js</p>
@@ -175,7 +175,7 @@ const ResumeModal = () =>{
                         <h5 className="h5Text ps-2 align-self-start" style={{minWidth:"140px"}}><b>Draw It!</b><span className="mobile-only"><br/></span><span className="desktop-only"> | </span><a href="http://52.38.15.176/" target="_blank" rel="noreferrer noopener">Live</a> | <a href="https://github.com/cgbridgewater/DrawIt" target="_blank" rel="noreferrer noopener">Github</a></h5>
                         <h5 className="h5Text pe-2 ms-auto text-end align-self-start">Tech Stack:<span className="mobile-only"><br/></span> React.js</h5>
                     </Stack>
-                    <h5 className="h5Text p-2"><em className="h5Text p-2">A memory based drawing challenge</em></h5>
+                    <h5 className="h5Text p-2"><em className="h5Text p-2">A memory-based drawing challenge</em></h5>
                     <ul>
                         <li>
                             <p className="pText">Developed a single page app using React.js</p>
