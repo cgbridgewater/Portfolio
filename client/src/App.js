@@ -1,6 +1,7 @@
 import './App.css';
 
 import Index from './Components/IndexPage';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
