@@ -161,7 +161,7 @@ a {
 
 @media (max-width: 425px) {
 	#welcome-section {
-		background-image: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg");
+		/* background-image: url("https://www.techrepublic.com/wp-content/uploads/2023/02/tr2323-code-language-jobs-770x455.jpeg"); */
 		background-attachment: scroll;
 		transition:  0.5s;	
 	}
