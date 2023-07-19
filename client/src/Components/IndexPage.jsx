@@ -1,3 +1,5 @@
+import ResumeModal from "./ResumeModal";
+
 const resume = require(`../Assets/Images/ChrisBridgewater_resume_image.jpg`);
 const getOutside = require(`../Assets/Images/getOutside.png`);
 const candyShop = require(`../Assets/Images/candyShop.png`);
@@ -102,17 +104,8 @@ const Index = () => {
             <li><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener"><i className="fab fa-github-square"></i>GitHub</a></li>
             <li><a href="https://www.instagram.com/cgbridgewater/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram-square"></i>Instagram</a></li>
             <li><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact"><i className="fas fa-envelope"></i>Email</a></li>
-            {/* POPUP TRIGGER */}
-            <li><a href="#popup" ><i className="fas fa-file-alt" style={{color:"#EB6028"}}></i>Resume</a></li>
-            {/* RESUME POP UP*/}
-            <div id="popup" className="overlay">
-                <div className="popup">
-                    <a id="close" href="#contact-section">&times;</a>
-                    <div className="content">
-                        <img className="resume" src={resume} alt="resume" />
-                    </div>
-                </div>
-            </div>
+            {/* RESUME POPUP */}
+            <ResumeModal/>
             {/* RESUME POP UP END */}
           </ul>
           {/* MEDIA LINKS END */}
