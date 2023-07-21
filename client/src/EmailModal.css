@@ -1,1 +1,53 @@
 /* modal button and effects */
+
+
+#emailTitle {
+    color:#FFFBF0;
+}
+
+#emailText {
+    color:#403E3A;
+}
+
+#nameLabel, #emailLabel, #messageLabel {
+    color:#EB6028;
+    margin-top: 6px;
+}
+
+#nameInput, #messageInput, #emailInput {
+    width: 85%;
+    margin-left: 7.5%;
+    background-color: antiquewhite;
+    border: 1px solid #EB6028;
+}
+
+#nameInput::placeholder, #messageInput::placeholder, #emailInput::placeholder {
+color:#403E3A;
+opacity: 70%;
+}
+
+
+#nameInput:focus::placeholder, #messageInput:focus::placeholder, #emailInput:focus::placeholder {
+color:#FFFBF0 ;
+}
+
+#nameLabel:focus, #emailLabel:focus, #messageLabel:focus {
+    color:#EB6028;
+}
+
+#nameInput:focus, #messageInput:focus, #emailInput:focus {
+    outline: 3px solid #EB6028;
+	outline-offset: -2px;
+    background-color: #FFFBF0;
+}
+
+#emailButton {
+    margin:10px 0 0 41%;
+    /* margin-left: 42%; */
+    padding:5px;
+    background: #FFFBF0;
+    font-weight: 800;
+    color: #403E3A;
+    border: 2.5px solid #EB6028;
+    border-radius: 8px;
+}
