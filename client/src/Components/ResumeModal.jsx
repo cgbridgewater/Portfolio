@@ -20,7 +20,6 @@ const ResumeModal = () =>{
 
         <div>
             <li><a href="#Resume" variant="primary" onClick={handleShowResume}><i className="fas fa-file-alt" style={{color:"#EB6028"}}></i>Resume</a></li>
-            {/*  <a href="#Resume" variant="primary" onClick={handleShowResume}>Launch Resume Modal</a> */}
             <Modal 
                 className="resumeModal"
                 show={showResume} onHide={handleCloseResume}
