@@ -1,3 +1,4 @@
+import Email from "./EmailModal";
 import ResumeModal from "./ResumeModal";
 
 const getOutside = require(`../Assets/Images/getOutside.png`);
@@ -102,7 +103,8 @@ const Index = () => {
             <li><a href="https://www.linkedin.com/in/chris-bridgewater/" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-linkedin"></i>Linked In</a></li>
             <li><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener"><i className="fab fa-github-square"></i>GitHub</a></li>
             <li><a href="https://www.instagram.com/cgbridgewater/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram-square"></i>Instagram</a></li>
-            <li><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact"><i className="fas fa-envelope"></i>Email</a></li>
+            {/* <li><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact"><i className="fas fa-envelope"></i>Email</a></li> */}
+            <Email/>
             {/* RESUME POPUP */}
             <ResumeModal/>
             {/* RESUME POP UP END */}
