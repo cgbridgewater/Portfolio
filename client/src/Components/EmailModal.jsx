@@ -30,18 +30,12 @@ const Email = () => {
             _template:template
         })
         .then( res => {
-            console.log(res);
-            console.log(res.data) 
+            console.log(res.data.message) 
             setName("")
             setEmail("")
             setMessage("")
-        // })
-        // .then((response) => {
-            console.log(res)
             document.getElementById("result-text").innerText =
             `Email sent successfully! \nReturning to main page.`;
-        })
-        .then((response) => {
             setTimeout(handleClose, 2000)
         })
         .catch((err) => {
@@ -52,11 +46,11 @@ const Email = () => {
     }
 
     return (    
-
+        // outer container
         <div>
-
+            {/* link on main page to trigger pop up */}
             <li><a href="#modal" onClick={handleShow}><i className="fas fa-envelope"></i>Email</a></li>
-
+            {/* model */}
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header
                     closeButton style={{background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderTop:"2px solid #EB6028"}}
@@ -64,9 +58,11 @@ const Email = () => {
                 <Modal.Title ><h3 id="emailTitle" style={{color:"#FFFBF0"}} className="p-2 m-0"><b>Contact <em>Chris Bridgewater</em></b></h3></Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>            
+                    {/* model inner title */}
                     <h6 id="emailText">Leave me an email and message or email me directly at <a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">cgbridgewater@outlook.com</a></h6>
-
+                    {/* form */}
                     <form  id="contactForm" onSubmit={onSubmitHandler}>
+                        {/* name section */}
                         <label htmlFor="name" id="nameLabel">
                             Name
                         </label>
@@ -79,7 +75,8 @@ const Email = () => {
                         name="name"
                         required
                         />
-
+                        {/* end name section */}
+                        {/* email section */}
                         <label htmlFor="email" id="emailLabel">
                             Email
                         </label>
@@ -92,9 +89,8 @@ const Email = () => {
                         name="email"
                         required
                         />
-
-                        <br />
-
+                        {/* end email section */}
+                        {/* message section */}
                         <label htmlFor="message" id="messageLabel">
                             Message
                         </label>
@@ -107,18 +103,18 @@ const Email = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         required
                         ></textarea>
+                        {/* end message section */}
+                        {/* submit button */}
                         <button id="emailButton" type="submit">Send</button>
+                        {/* end submit button */}
                     </form>
                 <p id="result-text"></p>
                 </Modal.Body>
                 <Modal.Footer style={{height:"50px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end"}}>
                 </Modal.Footer>
             </Modal>
-
         </div>
-
     )
-
 }
 
 export default Email
