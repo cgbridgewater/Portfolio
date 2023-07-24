@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Modal from 'react-bootstrap/Modal';
 import "../EmailModal.css";
+import axios from "axios"
 
 const Email = () => {
 
@@ -8,25 +9,47 @@ const Email = () => {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     const[ name, setName ] = useState("");
-    // const[ email, setEmail ] = useState("");
-    // const[ message, setMessage ] = useState("");
+    const[ email, setEmail ] = useState("");
+    const[ message, setMessage ] = useState("");
+    const subject = `New email from ${name}`
+    const captcha = false
+    const template = "box"
 
-
-
-
-    // const onSubmitHandler = (e) => {
-    //     e.preventDefault();
-    //     console.log(name)
-    //     console.log(email)
-    //     console.log(message)
-        
-
-
-
-    // }
-    
-
-
+    const onSubmitHandler = (e) => {
+        e.preventDefault();
+        console.log(name)
+        console.log(email)
+        console.log(message)
+        axios.defaults.headers.post['Content-Type'] = 'application/json';
+        axios.post("https://formsubmit.co/ajax/cgbridgewater@outlook.com", {
+            name:name,
+            email:email,
+            message:message,
+            _subject:subject,
+            _captcha:captcha,
+            _template:template
+        })
+        .then( res => {
+            console.log(res);
+            console.log(res.data) 
+            setName("")
+            setEmail("")
+            setMessage("")
+        // })
+        // .then((response) => {
+            console.log(res)
+            document.getElementById("result-text").innerText =
+            `Email sent successfully! \nReturning to main page.`;
+        })
+        .then((response) => {
+            setTimeout(handleClose, 2000)
+        })
+        .catch((err) => {
+            console.log(err) 
+            document.getElementById("result-text").innerText =
+            "An error occured,"+ err;
+        })
+    }
 
     return (    
 
@@ -43,12 +66,7 @@ const Email = () => {
                 <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>            
                     <h6 id="emailText">Leave me an email and message or email me directly at <a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">cgbridgewater@outlook.com</a></h6>
 
-                    <form  id="contactForm" action="https://formsubmit.co/50d48d6985684d090321d05f01e08d9a" method="POST">
-                        <input type="hidden" name="_next" value="http://localhost:3000/"/>
-                        <input type="hidden" name="_template" value="box"/>
-                        <input type="hidden" name="_subject" value={`New email from ${name}`}/>
-                        <input type="hidden" name="_captcha" value="false"/>
-
+                    <form  id="contactForm" onSubmit={onSubmitHandler}>
                         <label htmlFor="name" id="nameLabel">
                             Name
                         </label>
@@ -70,6 +88,7 @@ const Email = () => {
                         id="emailInput"
                         type="email"
                         placeholder="Provide your email" 
+                        onChange={(e) => setEmail(e.target.value)}
                         name="email"
                         required
                         />
@@ -85,6 +104,7 @@ const Email = () => {
                         placeholder="Leave me a message"
                         rows="3"  
                         name="message"
+                        onChange={(e) => setMessage(e.target.value)}
                         required
                         ></textarea>
                         <button id="emailButton" type="submit">Send</button>
