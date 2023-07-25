@@ -10,7 +10,7 @@ const drawIt = require(`../Assets/Images/DrawIt.png`);
 const Index = () => {
 
   return (
-
+    // CONTAINER //
     <div className="main-container">
       {/* NAV BAR*/}
       <nav id="navbar">

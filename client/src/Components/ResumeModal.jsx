@@ -4,22 +4,17 @@ import Modal from 'react-bootstrap/Modal';
 import Stack from 'react-bootstrap/Stack';
 import "../Modal.css"
 
-
 const ResumeModal = () =>{
-    // const [show, setShow] = useState(false);
-    // const handleClose = () => setShow(false);
-    // const handleShow = () => setShow(true);
     const [showResume, setShowResume] = useState(false);
     const handleCloseResume = () => setShowResume(false);
     const handleShowResume = () => setShowResume(true);
-  
-  
-
 
     return(
-
+        // container
         <div>
+            {/* link to trigger modal */}
             <li><a href="#Resume" variant="primary" onClick={handleShowResume}><i className="fas fa-file-alt" style={{color:"#EB6028"}}></i>Resume</a></li>
+            {/* modal start */}
             <Modal 
                 className="resumeModal"
                 show={showResume} onHide={handleCloseResume}
@@ -39,15 +34,14 @@ const ResumeModal = () =>{
                         <h3 className="devTitle ps-2 mb-0" style={{color:"#EB6028"}}><b>FULL STACK DEVELOPER</b></h3>
                         <h5 className="h5Text pe-2 ms-auto text-end mb-0" style={{minWidth:"145px"}}>541-554-0520<span className="desktop-only"> | </span><span className="mobile-only"><br /></span>Creswell, OR</h5>
                     </Stack>
-                    
+                    {/* EMAIL DESKTOP VIEW */}
                     <Stack className="desktop-only" direction="horizontal">
                         <h5 className="h5Text mt-0 pe-2 ms-auto text-start"><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">Email</a> | <a href="https://www.linkedin.com/in/chris-bridgewater" target="_blank" rel="noreferrer noopener">LinkedIn</a> | <a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener">GitHub</a></h5>
                     </Stack>
-
+                    {/* EMAIL PHONE VIEW */}
                     <Stack className="mobile-only" direction="horizontal">
                         <h5 className="h5Text mt-0 pe-2 ms-auto text-center"><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">Email</a> | <a href="https://www.linkedin.com/in/chris-bridgewater" target="_blank" rel="noreferrer noopener">LinkedIn</a><span className="mobile-only"><br /></span><span className="desktop-only"> | </span><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener">GitHub</a></h5>
                     </Stack>
-                    
                     <hr style={{height:"5px", backgroundColor:"#403E3A"}} />
                     <br />
                     <h4 className="h4Header ps-2 ms-auto" style={{color:"#EB6028"}}><b>TECHNICAL SKILLS</b></h4>
@@ -83,6 +77,7 @@ const ResumeModal = () =>{
                     </Stack>
                     {/* END TECH SKILLS MOBILE VIEW */}
                     <br />
+                    {/* PROJECT SECTION */}
                     <h4 className="h4Header ps-2 ms-auto" style={{color:"#EB6028"}}><b>SOFTWARE PROJECTS</b></h4>
                     <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
                     <Stack direction="horizontal" gap={3}>
@@ -186,7 +181,9 @@ const ResumeModal = () =>{
                             <p className="pText">Integrated desktop and phone versions to optimize UI based on the device used</p>
                         </li>
                     </ul>
+                    {/* END PROJECT SECTION */}
                     <br />
+                    {/* WORK EXPERIENCE SECTION */}
                     <h4 className="h4Header ps-2 ms-auto" style={{color:"#EB6028"}}><b>PROFESSIONAL EXPERIENCE</b></h4>
                     <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
                     <Stack direction="horizontal" gap={3}>
@@ -218,7 +215,9 @@ const ResumeModal = () =>{
                             of operation.</p>
                         </li>
                     </ul>
+                    {/* END WORK EXPERIENCE SECTION */}
                     <br />
+                    {/* EDUCATION SECTION */}
                     <h4 className="h4Header ps-2 ms-auto" style={{color:"#EB6028"}}><b>EDUCATION</b></h4>
                     <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
                     <Stack direction="horizontal" gap={3}>
@@ -244,16 +243,16 @@ const ResumeModal = () =>{
                             Distributed Control Systems, loop logic controls, physics, calculus and analytic geometry</p>
                         </li>
                     </ul>
-
+                {/* END EDUCATION SECTION */}
                 </Modal.Body>
                 <Modal.Footer style={{background:"#403E3A",borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end"}}>
+                {/* CLOSE BUTTON */}
                 <Button style={{background:"#FFFBF0",color:"#403E3A", border:"2.25px solid #EB6028", fontWeight:800}} onClick={handleCloseResume}>
                     CLOSE
                 </Button>
                 </Modal.Footer>
             </Modal>
         </div>
-
     )
 }
 
