@@ -28,6 +28,7 @@ const ResumeModal = () =>{
                 <Modal.Title ><h1 style={{color:"#FFFBF0"}} className="name p-2 m-0"><b><em>Chris Bridgewater</em></b></h1>
                 </Modal.Title>
                 </Modal.Header>
+                {/* Modal Body - Content */}
                 <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>
                     {/* WEB DEV TITLE AND CONTACTS */}
                     <Stack direction="horizontal" gap={1}>
@@ -245,11 +246,13 @@ const ResumeModal = () =>{
                     </ul>
                 {/* END EDUCATION SECTION */}
                 </Modal.Body>
+                {/* End Modal Body - Content */}
                 <Modal.Footer style={{background:"#403E3A",borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end"}}>
                 {/* CLOSE BUTTON */}
                 <Button style={{background:"#FFFBF0",color:"#403E3A", border:"2.25px solid #EB6028", fontWeight:800}} onClick={handleCloseResume}>
                     CLOSE
                 </Button>
+                {/* END CLOSE BUTTON */}
                 </Modal.Footer>
             </Modal>
         </div>
