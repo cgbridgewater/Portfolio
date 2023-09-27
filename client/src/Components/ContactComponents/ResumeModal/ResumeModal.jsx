@@ -42,7 +42,7 @@ const ResumeModal = () =>{
                     </Stack>
                     {/* EMAIL PHONE VIEW */}
                     <Stack className="mobile-only" direction="horizontal">
-                        <h5 className="h5Text mt-0 pe-2 ms-auto text-center"><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">Email</a> | <a href="https://www.linkedin.com/in/chris-bridgewater" target="_blank" rel="noreferrer noopener">LinkedIn</a><span className="mobile-only"><br /></span><span className="desktop-only"> | </span><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener">GitHub</a></h5>
+                        <h5 className="h5Text mt-0  ms-auto text-center"><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact">Email</a> | <a href="https://www.linkedin.com/in/chris-bridgewater" target="_blank" rel="noreferrer noopener">LinkedIn</a><span className="mobile-only"><br /></span><span className="desktop-only"> | </span><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener">GitHub</a></h5>
                     </Stack>
                     <hr style={{height:"5px", backgroundColor:"#403E3A"}} />
                     <br />
@@ -66,7 +66,7 @@ const ResumeModal = () =>{
                     {/* TECH SKILLS MOBILE VIEW */}
                     <Stack direction="vertical" className="mobile-only">
                         <p className="pText ps-2 align-self-start">
-                            <b>Languages:</b> Java, JavaScript (ES6, Node.js), <br/>Python, SQL, HTML5, CSS <br/>
+                            <b>Languages:</b> Java, JavaScript (ES6, Node.js), <br/>Python, C#, SQL, HTML5, CSS <br/>
                             <br/>
                             <b>Frameworks/Libraries:</b> React.js, Express.js, <br/>Apache Tomcat, Flask, MVC, .NET, ASP.NET Core, <br />Entity Framework Core, Bootstrap, PayPal
                         </p>
@@ -74,7 +74,7 @@ const ResumeModal = () =>{
                         <p className="pText ps-2 align-self-start text-start">
                             <b>DataBases:</b> MySQL, NoSQL, MongoDB <br/>
                             <br/>
-                            <b>Tools:</b> JSON - REST, API, Socket.io, Bcrypt, JPA ORM, VS-Code, Eclipse, Postman, AWS, MySQL Workbench
+                            <b>Tools:</b> JSON - REST, API, Socket.io, Bcrypt, JPA ORM, VS-Code, Eclipse, Postman, AWS, MySQL Workbench, Razor, LINQ
                         </p>
                     </Stack>
                     {/* END TECH SKILLS MOBILE VIEW */}
