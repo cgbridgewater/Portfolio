@@ -1,10 +1,9 @@
 import React, {useState} from "react";
 import Modal from 'react-bootstrap/Modal';
-import "../EmailModal.css";
+import "./EmailModal.css";
 import axios from "axios"
 
 const Email = () => {
-
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
@@ -45,7 +44,7 @@ const Email = () => {
         })
     }
 
-    return (    
+    return (
         // outer container
         <div>
             {/* link on main page to trigger pop up */}

@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Stack from 'react-bootstrap/Stack';
-import "../Modal.css"
+import "./Modal.css"
 
 const ResumeModal = () =>{
     const [showResume, setShowResume] = useState(false);
@@ -18,12 +18,13 @@ const ResumeModal = () =>{
             <Modal 
                 className="resumeModal"
                 show={showResume} onHide={handleCloseResume}
-                size="lg"
-                fullscreen={true}
+                size="xl"
+                fullscreen={false}
+                scrollable={true}
                 centered
                 >
                 <Modal.Header
-                    closeButton style={{background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderTop:"2px solid #EB6028"}}
+                    closeButton style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderTop:"2px solid #EB6028"}}
                 >
                 <Modal.Title ><h1 style={{color:"#FFFBF0"}} className="name p-2 m-0"><b><em>Chris Bridgewater</em></b></h1>
                 </Modal.Title>
@@ -278,7 +279,7 @@ const ResumeModal = () =>{
                 {/* END EDUCATION SECTION */}
                 </Modal.Body>
                 {/* End Modal Body - Content */}
-                <Modal.Footer style={{background:"#403E3A",borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end"}}>
+                <Modal.Footer style={{height:"60px", background:"#403E3A",borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end", alignContent:"center"}}>
                 {/* CLOSE BUTTON */}
                 <Button style={{background:"#FFFBF0",color:"#403E3A", border:"2.25px solid #EB6028", fontWeight:800}} onClick={handleCloseResume}>
                     CLOSE

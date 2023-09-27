@@ -1,13 +1,20 @@
+import Navbar from './Components/NavbarComponents/Navbar';
+import Welcome from './Components/WelcomeComponents/Welcome';
+import Projects from "./Components/ProjectsCompontents/Projects";
+import Contact from './Components/ContactComponents/ContactComponent/Contact';
+import Footer from './Components/FooterComponents/Footer';
 import './App.css';
-
-import Index from './Components/IndexPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-          <Index/>
-    </div>
+      <div className="main-container">
+        <Navbar/>
+        <Welcome/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </div>
   );
 }
 

@@ -1,0 +1,103 @@
+/* WELCOME STYLE */
+#welcome-section {
+	padding: 10px;
+	padding-bottom: 15px;
+	height: 100dvh;
+	min-height: 500px;
+	display: grid;
+	grid-template-rows: 1fr auto auto 1fr;
+	justify-items: center;
+	grid-row-gap: 15px;
+	background: var(--color-3);
+	background-image: url('../../Assets/Images/codeBackground.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+#welcome-section h1 {
+	padding: 30px 50px;
+	grid-row: 2;
+	font-family: var(--font-em);
+	font-size: 60px;
+	font-weight: 300;
+	text-align: center;
+	color: var(--color-1);
+	text-shadow: 0 3px 2px var(--color-5);
+}
+
+.titleSpan {
+	font-size:40px;
+}
+.titleSpan2 {
+	font-size:30px;
+}
+
+#link-to-contact {
+	padding: 10px 30px;
+	grid-row: 3;
+	border-radius: 9999px;
+	background: var(--color-5);
+	font-size: 20px;
+	font-weight: 100;
+	font-style: italic;
+	text-align: center;
+	color: var(--color-1);
+	box-shadow: 0 4px var(--color-4);
+	transition: transform 0.5s;
+}
+
+#link-to-contact:hover {
+	transform: scale(1.1, 1.1);
+}
+
+#link-to-projects {
+	padding: 0 10px;
+	width: auto;
+	grid-row: 5;
+	text-align: center;
+	font-size: 40px;
+	color: var(--color-5);
+	text-shadow: 0 4px var(--color-4);
+	transition: transform 0.3s;
+}
+
+@media (max-width: 800px) {
+	#welcome-section h1 {
+	font-size: 48px;
+	transition:  0.3s;
+	}
+	.titleSpan {
+		font-size:30px;
+		transition:  0.5s;	
+	}
+	.titleSpan2 {
+		font-size:24px;
+		transition:  0.5s;	
+	}
+	#link-to-contact {
+		font-size: 16px;
+		transition:  0.3s;
+	}
+}
+
+@media (max-width: 425px) {
+	#welcome-section {
+		background-attachment: scroll;
+		transition:  0.5s;	
+	}
+	#welcome-section h1 {
+	font-size: 40px;
+	padding: 20px 15px;
+	transition:  0.5s;	
+	}
+	.titleSpan {
+		font-size:26px;
+		transition:  0.5s;	
+	}
+	.titleSpan2 {
+		font-size:20px;
+		transition:  0.5s;	
+	}
+}
