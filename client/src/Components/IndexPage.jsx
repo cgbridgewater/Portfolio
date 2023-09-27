@@ -6,6 +6,7 @@ const candyShop = require(`../Assets/Images/candyShop.png`);
 const petShelter = require(`../Assets/Images/petShelter.png`);
 const tetris = require(`../Assets/Images/MyTetris.png`);
 const drawIt = require(`../Assets/Images/DrawIt.png`);
+const fireball = require(`../Assets/Images/Fireball.png`);
 
 const Index = () => {
 
@@ -40,7 +41,7 @@ const Index = () => {
             <a href="http://34.218.236.175/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={petShelter} alt="webpage screen"/>  
             </a>
-            <p className="project-caption">Pet Shelter (MERN)</p>
+            <p className="project-caption">Pet Shelter (MERN/React.js)</p>
             <p className="project-caption2">Solo Project</p>
           </div>
           {/* project 2 */}
@@ -56,16 +57,16 @@ const Index = () => {
             <a href="http://52.33.105.171/" target="_blank" rel="noreferrer noopener">
               <img className="webpage-img" src={candyShop} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Candy Shop (MERN)</p>
-            <p className="project-caption2">Group Project</p>
+            <p className="project-caption">Candy Shop (MERN/React.js)</p>
+            <p className="project-caption2">Dojo Group Project</p>
           </div>
           {/* project 4 */}
           <div className="project-tile">
-            <a href="http://35.88.143.101/" target="_blank" rel="noreferrer noopener">
-              <img className="webpage-img" src={tetris} alt="webpage screen"/>
+            <a href="https://fireballdata.vercel.app/" target="_blank" rel="noreferrer noopener">
+              <img className="webpage-img" src={fireball} alt="webpage screen"/>
             </a>
-            <p className="project-caption">Tetris - PC Mini Game (React.js)</p>
-            <p className="project-caption2">Solo Project</p>
+            <p className="project-caption">Fireball (React/Next.js)</p>
+            <p className="project-caption2">Chingu Group Project</p>
           </div>
           {/* project 5 */}
           <div className="project-tile">
@@ -77,13 +78,11 @@ const Index = () => {
           </div>
           {/* project 6 */}
           <div className="project-tile">
-            <div>
-              <div className="placeholder-img">
-                <p>Coming soon</p>
-              </div>
-            </div>
-            <p className="project-caption">C# Project</p>
-            <p className="project-caption2">&nbsp;</p>
+            <a href="http://35.88.143.101/" target="_blank" rel="noreferrer noopener">
+              <img className="webpage-img" src={tetris} alt="webpage screen"/>
+            </a>
+            <p className="project-caption">Tetris - PC Mini Game (React.js)</p>
+            <p className="project-caption2">Solo Project</p>
           </div>
         </div>
         {/* CONTACT LINK */}
@@ -103,7 +102,6 @@ const Index = () => {
             <li><a href="https://www.linkedin.com/in/chris-bridgewater/" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-linkedin"></i>Linked In</a></li>
             <li><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener"><i className="fab fa-github-square"></i>GitHub</a></li>
             <li><a href="https://www.instagram.com/cgbridgewater/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram-square"></i>Instagram</a></li>
-            {/* <li><a href="mailto:cgbridgewater@outlook.com?subject=Web Development Contact"><i className="fas fa-envelope"></i>Email</a></li> */}
             <Email/>
             {/* RESUME POPUP */}
             <ResumeModal/>
@@ -122,7 +120,7 @@ const Index = () => {
         {/* FOOTER */}
         <div id="footer-container">
           <footer>
-            <p>Created 07/2023</p>
+            <p>Rev. 9/2023</p>
           </footer>
         </div>
         {/* FOOTER END */}
