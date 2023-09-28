@@ -8,6 +8,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: stretch;
+	min-width: 325px;
 }
 
 #contact {
@@ -86,7 +87,6 @@
 	}
 	#links-list {
 		flex-wrap: wrap;
-		/* justify-content: space-between; */
 		gap: 0 10px;
 		padding: 0 10px;
 		transition:  0.5s;
@@ -104,7 +104,7 @@
 		transition:  0.5s;
 	}
 	#links-list li {
-	font-size: 1.2rem;
+	font-size: 1.25rem;
 	transition:  0.5s;
 	}
 	#links-list li a {
@@ -118,7 +118,24 @@
 		transition:  0.5s;
 	}
 	#links-list li {
-		font-size: 1.15rem;
+		font-size: 1.1rem;
+		padding: 20px 20px;
+		transition:  0.5s;
+	}
+}
+
+@media (max-width: 320px) {
+	#links-list li {
+		font-size: .9rem;
+		padding: 20px 20px;
+		transition:  0.5s;
+	}
+}
+
+@media (max-width: 270px) {
+	#links-list li {
+		font-size: .9rem;
+		padding: 20px 20px;
 		transition:  0.5s;
 	}
 }

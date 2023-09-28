@@ -5,6 +5,7 @@
 	min-height: 100dvh;
 	background: var(--color-1);
 	text-align: center;
+	min-width: 325px;
 }
 
 #projects h2 {

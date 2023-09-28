@@ -4,6 +4,7 @@
 	padding-bottom: 15px;
 	height: 100dvh;
 	min-height: 500px;
+	min-width: 325px;
 	display: grid;
 	grid-template-rows: 1fr auto auto 1fr;
 	justify-items: center;
