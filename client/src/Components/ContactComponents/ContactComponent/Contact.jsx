@@ -1,3 +1,4 @@
+import AboutMeModal from "../AboutMeModal/AboutMeModal"
 import Email from "../EmailModal/EmailModal"
 import ResumeModal from "../ResumeModal/ResumeModal"
 import "./Contact.css"
@@ -16,10 +17,12 @@ function Contact() {
                 <li><a href="https://www.linkedin.com/in/chris-bridgewater/" target="_blank" rel="noreferrer noopener"><i className="fa-brands fa-linkedin"></i>Linked In</a></li>
                 <li><a href="https://github.com/cgbridgewater" target="_blank" rel="noreferrer noopener"><i className="fab fa-github-square"></i>GitHub</a></li>
                 <li><a href="https://www.instagram.com/cgbridgewater/" target="_blank" rel="noreferrer noopener"><i className="fab fa-instagram-square"></i>Instagram</a></li>
+                {/* ABOUT ME POPUP */}
+                <AboutMeModal/>
+                {/* EMAIL POPUP */}
                 <Email/>
                 {/* RESUME POPUP */}
                 <ResumeModal/>
-                {/* RESUME POP UP END */}
             </ul>
             {/* MEDIA LINKS END */}
             {/* PROFILE IMAGE */}

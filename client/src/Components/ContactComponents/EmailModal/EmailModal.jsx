@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 import "./EmailModal.css";
 import axios from "axios"
 
@@ -48,13 +49,13 @@ const Email = () => {
         // outer container
         <div>
             {/* link on main page to trigger pop up */}
-            <li><a href="#modal" onClick={handleShow}><i className="fas fa-envelope"></i>Email</a></li>
+            <li><a href="#modal" onClick={handleShow}><i className="fas fa-envelope"></i>Email Me</a></li>
             {/* model */}
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} centered>
                 <Modal.Header
-                    closeButton style={{background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderTop:"2px solid #EB6028"}}
+                    closeButton style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028", borderTop:"2px solid #EB6028"}}
                 >
-                <Modal.Title ><h3 id="emailTitle" style={{color:"#FFFBF0"}} className="p-2 m-0"><b>Contact <em>Chris Bridgewater</em></b></h3></Modal.Title>
+                <Modal.Title ><h2 id="emailTitle" style={{color:"#FFFBF0"}} className="m-0"><b>Contact <em>Chris Bridgewater</em></b></h2></Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>            
                     {/* model inner title */}
@@ -109,7 +110,11 @@ const Email = () => {
                     </form>
                 <p id="result-text"></p>
                 </Modal.Body>
-                <Modal.Footer style={{height:"50px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end"}}>
+                <Modal.Footer style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderBottom:"2px solid #EB6028", display:"flex",justifyContent:"end", alignContent:"center"}}>
+                    {/* CLOSE BUTTON */}
+                    <Button style={{background:"#FFFBF0",color:"#403E3A", border:"2.25px solid #EB6028", fontWeight:800}} onClick={handleClose}>
+                        CLOSE
+                    </Button>
                 </Modal.Footer>
             </Modal>
         </div>

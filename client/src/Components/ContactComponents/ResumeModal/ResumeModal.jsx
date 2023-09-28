@@ -26,7 +26,7 @@ const ResumeModal = () =>{
                 <Modal.Header
                     closeButton style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028",borderTop:"2px solid #EB6028"}}
                 >
-                <Modal.Title ><h1 style={{color:"#FFFBF0"}} className="name p-2 m-0"><b><em>Chris Bridgewater</em></b></h1>
+                <Modal.Title ><h1 style={{color:"#FFFBF0"}} className="name m-0"><b><em>Chris Bridgewater</em></b></h1>
                 </Modal.Title>
                 </Modal.Header>
                 {/* Modal Body - Content */}

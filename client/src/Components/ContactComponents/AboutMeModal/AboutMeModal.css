@@ -1,0 +1,63 @@
+/* About Me Style */
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FFFBF0;
+}
+
+.name {
+	color: var(--color-1);
+    font-family: var(--font-em);
+    text-shadow: 0 3px 2px var(--color-5);
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.bikes {
+    width: 100%;
+    min-width: 350px;
+}
+
+@media (max-width: 4000px) {
+    .name{
+        font-size: 2.2rem;
+        transition: .25s;
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    .name{
+        font-size: 2.0rem;
+        transition: .25s;
+    }
+}
+
+@media (max-width: 800px) {
+    .name{
+        font-size: 1.8rem;
+        transition: .25s;
+    }
+}
+
+@media only screen and (max-width:499px) {
+    .name{
+        font-size: 1.6rem;
+        transition: .25s;
+    }
+}
+
+@media only screen and (max-width:999px) {
+    .desktop {
+        display:none !important;
+        transition: .25s;
+    }
+}
+
+@media only screen and (min-width:1000px) {
+    .phone {
+        display:none !important;
+        transition: .25s;
+    }
+}

@@ -1,7 +1,11 @@
 /* Email Modal Style */
 
 #emailTitle {
-    color:#FFFBF0;
+	color: var(--color-1);
+    font-family: var(--font-em);
+    text-shadow: 0 3px 2px var(--color-5);
+    font-size: 32px;
+    font-weight: 300;
 }
 
 #emailText {
@@ -54,4 +58,32 @@ color:#FFFBF0 ;
     margin-top: 10px;
     text-align: center;
     color: #EB6028;
+}
+
+@media (max-width: 4000px) {
+    #emailTitle{
+        font-size: 2.2rem;
+        transition: .25s;
+    }
+}
+
+@media (max-width: 1200px) {
+    #emailTitle{
+        font-size: 2.0rem;
+        transition: .25s;
+    }
+}
+
+@media (max-width: 800px) {
+    #emailTitle{
+        font-size: 1.8rem;
+        transition: .25s;
+    }
+}
+
+@media only screen and (max-width:499px) {
+    #emailTitle{
+        font-size: 1.6rem;
+        transition: .25s;
+    }
 }
