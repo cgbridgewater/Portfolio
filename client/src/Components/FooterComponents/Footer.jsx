@@ -5,7 +5,7 @@ function Footer (){
     return(
     <div id="footer-container">
         <footer>
-            <p>Rev. 9/2023</p>
+            <p><i className="far fa-snowflake"></i> Rev. 12/2023 <i className="fas fa-snowman" style={{color:"#eb6028"}}></i></p>
         </footer>
     </div>
     )
