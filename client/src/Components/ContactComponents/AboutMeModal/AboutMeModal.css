@@ -19,6 +19,10 @@
     min-width: 350px;
 }
 
+Button:hover {
+    opacity: 80%
+}
+
 @media (max-width: 4000px) {
     .name{
         font-size: 2.2rem;

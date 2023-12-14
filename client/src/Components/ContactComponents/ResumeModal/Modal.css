@@ -34,6 +34,7 @@
         font-size: 1.1;
         margin: 0;
         padding:0;
+        width: 85%;
         transition: .25s;
     }
     
@@ -60,6 +61,7 @@
         font-size: 1.0;
         margin: 0;
         padding:0;
+        width: 85%;
         transition: .25s;
     }
 }
@@ -85,6 +87,7 @@
         font-size: .95;
         margin: 0;
         padding:0;
+        width: 85%;
         transition: .25s;
     }
 }
@@ -113,6 +116,7 @@
         font-size: 0.9rem;
         margin: 0;
         padding:0;
+        width: 85%;
         transition: .25s;
     }
 }

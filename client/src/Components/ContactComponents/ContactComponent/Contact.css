@@ -72,6 +72,10 @@
 	color: var(--color-5);
 }
 
+Button:hover {
+    opacity: 80%
+}
+
 @media (max-width: 850px) {
 	#contact-section {
 		min-height: 820px;

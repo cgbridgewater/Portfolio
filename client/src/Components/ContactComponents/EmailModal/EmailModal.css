@@ -60,6 +60,10 @@ color:#FFFBF0 ;
     color: #EB6028;
 }
 
+Button:hover {
+    opacity: 80%
+}
+
 @media (max-width: 4000px) {
     #emailTitle{
         font-size: 2.2rem;
