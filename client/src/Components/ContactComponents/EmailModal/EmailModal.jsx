@@ -53,9 +53,9 @@ const Email = () => {
             {/* model */}
             <Modal show={show} onHide={handleClose} centered>
                 <Modal.Header
-                    closeButton style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028", borderTop:"2px solid #EB6028"}}
+                    closeButton closeVariant="white" style={{height:"60px", background:"#403E3A", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028", borderTop:"2px solid #EB6028"}}
                 >
-                <Modal.Title ><h2 id="emailTitle" style={{color:"#FFFBF0"}} className="m-0"><b>Contact <em>Chris Bridgewater</em></b></h2></Modal.Title>
+                <Modal.Title className="mo" ><h2 id="emailTitle" style={{color:"#FFFBF0"}} className="m-0"><b>Contact <em>Chris Bridgewater</em></b></h2></Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="modalBody"  style={{backgroundColor:"#FFFBF0", borderLeft:"2px solid #EB6028", borderRight:"2px solid #EB6028"}}>            
                     {/* model inner title */}
