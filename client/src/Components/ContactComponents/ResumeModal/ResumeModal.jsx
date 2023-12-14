@@ -81,6 +81,28 @@ const ResumeModal = () =>{
                     <br />
                     {/* PROJECT SECTION */}
                     <h4 className="h4Header ps-2 ms-auto" style={{color:"#EB6028"}}><b>SOFTWARE PROJECTS</b></h4>
+
+                    <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
+                    {/* START PROJECT MANAGER */}
+                    <Stack direction="horizontal" gap={3}>
+                        <h5 className="h5Text ps-2 align-self-start " style={{minWidth:"140px"}}><b>The Project Board</b><span className="mobile-only"><br/></span><span className="desktop-only"> | </span><a href="https://github.com/cgbridgewater/Java/tree/main/Java%20Spring/project_manager" target="_blank" rel="noreferrer noopener">GitHub</a></h5>
+                        <h5 className="h5Text pe-2 ms-auto text-end">Tech Stack:<span className="mobile-only"><br/></span> Java / SpringBoot / MySQL</h5>
+                    </Stack>
+                    <h5 className="h5Text p-2"><em className="h5Text p-2" >A management system to help users reach project goals before their deadlines.</em></h5>
+                    <ul style={{width:"75%"}}>
+                        <li>
+                            <p className="pText">Created an app to provide users with the ability to create projects, add tasks to the projects and join other projects while tracking the due dates</p>
+                        </li>
+                        <li>
+                            <p className="pText">Developed a login / registration system via MySQL database utilizing RegEx, validations, Bcrypt and hashing passwords</p>
+                        </li>
+                        <li>
+                            <p className="pText">Primary focus was on backend design and functionality. Utilizing custom queries and OOP principals to manipulate and retrieve data effectively</p>
+                        </li>
+                    </ul>
+                    {/* END GET PROJECT MANAGER */}
+
+
                     <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
                     {/* START GETOUTSIDE */}
                     <Stack direction="horizontal" gap={3}>
