@@ -1,19 +1,19 @@
-import Navbar from './Components/NavbarComponents/Navbar';
-import Welcome from './Components/WelcomeComponents/Welcome';
-import Projects from "./Components/ProjectsCompontents/Projects";
-import Contact from './Components/ContactComponents/ContactComponent/Contact';
-import Footer from './Components/FooterComponents/Footer';
-import './App.css';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Origin from './Views/Origin';
+import Index from './Views/Index';
+
+
 
 function App() {
   return (
       <div className="main-container">
-        <Navbar/>
-        <Welcome/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
+          <BrowserRouter>
+          <Routes>
+            <Route element={<Index/>} path="/" default />
+            <Route element={<Origin/>} path="/origin"/>
+          </Routes>
+        </BrowserRouter>
       </div>
   );
 }
