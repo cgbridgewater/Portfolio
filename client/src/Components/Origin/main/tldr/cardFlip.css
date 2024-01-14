@@ -1,0 +1,228 @@
+/* Card Flip Specific Styling */
+
+/* Container Layout */
+.OriginCardContent {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+/* Backside of card text box */
+.OriginCardText {
+    color: #FF5C03;
+    font-weight: 800;
+    font-size: 13px;
+    background: #342833;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-family: "Syncopate";
+}
+
+/* Style For the card itself */
+.OriginCard {
+    color: inherit;
+    cursor: pointer;
+    width: calc(33% - 2rem);
+    min-width: calc(33% - 2rem);
+    height: 400px;
+    min-height: 400px;
+    perspective: 1000px;
+    margin: 1rem;
+    position: relative;  
+    filter: drop-shadow(8px 8px 8px black);
+}
+
+/* responsive adaption */
+@media screen and (max-width: 800px) {
+    .OriginCard {
+        width: calc(50% - 3.5rem);
+    }
+}
+
+/* responsive adaption */
+@media screen and (max-width: 500px) {
+    .OriginCard {
+    width: 100%;
+    }
+}
+
+/* Card Faces */
+.OriginCardFront,
+.OriginCardBack {
+    display: flex;
+    border-radius: 6px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: ease-in-out 600ms;
+    padding: 5px;
+    overflow: hidden;
+    font-family: Poppins, sans-serif;
+}
+
+.OriginCardfront:before {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.25;
+    z-index: -1;
+}
+
+/* Flipping Action */
+.OriginCard:hover .OriginCardFront {
+    transform: rotateY(180deg);
+}
+
+.OriginCard:nth-child(even):hover .OriginCardFront {
+    transform: rotateY(-180deg);
+}
+
+.OriginCardBack {
+    transform: rotateY(-180deg);
+    filter: drop-shadow(8px 8px 12px #FF5C03);
+}
+
+.OriginCard:hover .OriginCardBack {
+    transform: rotateY(0deg);
+}
+
+.OriginCard:nth-child(even) .OriginCardBack {
+    transform: rotateY(180deg);
+}
+
+.OriginCard:nth-child(even):hover .OriginCardBack {
+    transform: rotateY(0deg);
+}
+
+/* Card Images */
+.OriginCard1Front {
+    background-image: url("./images/1.png");
+}
+
+.OriginCard1Back {
+    background-image: url("./images/1.png");
+    opacity: .8;
+}
+
+.OriginCard2Front {
+    background-image: url("./images/2.png");
+}
+
+.OriginCard2Back {
+    background-image: url("./images/2.png");
+    opacity: .8;
+}
+
+.OriginCard3Front {
+    background-image: url("./images/3.png");
+}
+
+.OriginCard3Back {
+    background-image: url("./images/3.png");
+    opacity: .8;
+}
+
+.OriginCard4Front {
+    background-image: url("./images/4.png");
+}
+
+.OriginCard4Back {
+    background-image: url("./images/4.png");
+    opacity: .8;
+}
+
+.OriginCard5Front {
+    background-image: url("./images/5.png");
+}
+
+.OriginCard5Back {
+    background-image: url("./images/5.png");
+    opacity: .8;
+}
+
+.OriginCard6Front {
+    background-image: url("./images/6.png");
+}
+
+.OriginCard6Back {
+    background-image: url("./images/6.png");
+    opacity: .8;
+}
+
+.OriginCard7Front {
+    background-image: url("./images/7.png");
+}
+
+.OriginCard7Back {
+    background-image: url("./images/7.png");
+    opacity: .8;
+}
+
+.OriginCard8Front {
+    background-image: url("./images/8.png");
+}
+
+.OriginCard8Back {
+    background-image: url("./images/8.png");
+    opacity: .8;
+}
+
+.OriginCard9Front {
+    background-image: url("./images/9.png");
+}
+
+.OriginCard9Back {
+    background-image: url("./images/9.png");
+    opacity: .8;
+}
+
+.OriginCard10Front {
+    background-image: url("./images/10.png");
+}
+
+.OriginCard10Back {
+    background-image: url("./images/10.png");
+    opacity: .8;
+}
+
+.OriginCard11Front {
+    background-image: url("./images/11.png");
+}
+
+.OriginCard11Back {
+    background-image: url("./images/11.png");
+    opacity: .8;
+}
+
+.OriginCard12Front {
+    background-image: url("./images/12.png");
+}
+
+.OriginCard12Back {
+    background-image: url("./images/12.png");
+    opacity: .8;
+}
+
+.OriginCard13Front {
+    background-image: url("./images/13.png");
+}
+
+.OriginCard13Back {
+    background-image: url("./images/13.png");
+    opacity: .8;
+}
