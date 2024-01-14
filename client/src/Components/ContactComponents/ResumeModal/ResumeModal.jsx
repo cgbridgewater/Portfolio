@@ -102,7 +102,6 @@ const ResumeModal = () =>{
                     </ul>
                     {/* END GET PROJECT MANAGER */}
 
-
                     <hr style={{height:"2px", backgroundColor:"#403E3A"}} />
                     {/* START GETOUTSIDE */}
                     <Stack direction="horizontal" gap={3}>
