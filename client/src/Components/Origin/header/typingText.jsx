@@ -4,7 +4,7 @@ const TypingText = () => {
 
     useEffect(() => {
         runTyping();
-    }, []);
+    });
 
     const TxtRotate = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -61,7 +61,7 @@ const runTyping = function() {
                 <span
                     className="txt-rotate"
                     data-period="1725"
-                    data-rotate='["GOLFER", "MOUNTAIN BIKER", "SKIER", "HUSBAND"]'
+                    data-rotate='["Golfer", "Mountain Biker", "Skier", "Husband"]'
                 ></span>
             </h1>
         </div>

@@ -64,6 +64,14 @@
 	font-weight:900;
 }
 
+
+.txt-rotate {
+	border-right: 0.08em solid #FF5C03;
+	padding-right: 5px;
+	animation: blink-caret 1.25s step-end infinite;
+}
+
+
 @keyframes blink-caret {
 	from, to { border-color: transparent; }
 	50% { border-color: #FF5C03; }
