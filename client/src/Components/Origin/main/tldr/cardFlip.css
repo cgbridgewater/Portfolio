@@ -110,119 +110,119 @@
 }
 
 /* Card Images */
-.OriginCard1Front {
-    background-image: url("./images/1.png");
+.Card1Front {
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
 }
 
-.OriginCard1Back {
-    background-image: url("./images/1.png");
+.Card1Back {
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
     opacity: .8;
 }
 
-.OriginCard2Front {
-    background-image: url("./images/2.png");
+.Card2Front {
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
 }
 
-.OriginCard2Back {
-    background-image: url("./images/2.png");
+.Card2Back {
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
     opacity: .8;
 }
 
-.OriginCard3Front {
-    background-image: url("./images/3.png");
+.Card3Front {
+    background-image: url("https://live.staticflickr.com/65535/53469699830_5b4b2f9ca2_n.jpg");
 }
 
-.OriginCard3Back {
-    background-image: url("./images/3.png");
+.Card3Back {
+    background-image: url("https://live.staticflickr.com/65535/53469699830_5b4b2f9ca2_n.jpg");
     opacity: .8;
 }
 
-.OriginCard4Front {
-    background-image: url("./images/4.png");
+.Card4Front {
+    background-image: url("https://live.staticflickr.com/65535/53469699395_237f6587f5_w.jpg");
 }
 
-.OriginCard4Back {
-    background-image: url("./images/4.png");
+.Card4Back {
+    background-image: url("https://live.staticflickr.com/65535/53469699395_237f6587f5_w.jpg");
     opacity: .8;
 }
 
-.OriginCard5Front {
-    background-image: url("./images/5.png");
+.Card5Front {
+    background-image: url("https://live.staticflickr.com/65535/53469279366_3388c7ab53_n.jpg");
 }
 
-.OriginCard5Back {
-    background-image: url("./images/5.png");
+.Card5Back {
+    background-image: url("https://live.staticflickr.com/65535/53469279366_3388c7ab53_n.jpg");
     opacity: .8;
 }
 
-.OriginCard6Front {
-    background-image: url("./images/6.png");
+.Card6Front {
+    background-image: url("https://live.staticflickr.com/65535/53469417558_6c5233b03f_n.jpg");
 }
 
-.OriginCard6Back {
-    background-image: url("./images/6.png");
+.Card6Back {
+    background-image: url("https://live.staticflickr.com/65535/53469417558_6c5233b03f_n.jpg");
     opacity: .8;
 }
 
-.OriginCard7Front {
-    background-image: url("./images/7.png");
+.Card7Front {
+    background-image: url("https://live.staticflickr.com/65535/53469598309_d3e0642100_n.jpg");
 }
 
-.OriginCard7Back {
-    background-image: url("./images/7.png");
+.Card7Back {
+    background-image: url("https://live.staticflickr.com/65535/53469598309_d3e0642100_n.jpg");
     opacity: .8;
 }
 
-.OriginCard8Front {
-    background-image: url("./images/8.png");
+.Card8Front {
+    background-image: url("https://live.staticflickr.com/65535/53469416713_c1961346bd_n.jpg");
 }
 
-.OriginCard8Back {
-    background-image: url("./images/8.png");
+.Card8Back {
+    background-image: url("https://live.staticflickr.com/65535/53469416713_c1961346bd_n.jpg");
     opacity: .8;
 }
 
-.OriginCard9Front {
-    background-image: url("./images/9.png");
+.Card9Front {
+    background-image: url("https://live.staticflickr.com/65535/53468372612_8780aaab7f_w.jpg");
 }
 
-.OriginCard9Back {
-    background-image: url("./images/9.png");
+.Card9Back {
+    background-image: url("https://live.staticflickr.com/65535/53468372612_8780aaab7f_w.jpg");
     opacity: .8;
 }
 
-.OriginCard10Front {
-    background-image: url("./images/10.png");
+.Card10Front {
+    background-image: url("https://live.staticflickr.com/65535/53469698845_cac73b2f8f_n.jpg");
 }
 
-.OriginCard10Back {
-    background-image: url("./images/10.png");
+.Card10Back {
+    background-image: url("https://live.staticflickr.com/65535/53469698845_cac73b2f8f_n.jpg");
     opacity: .8;
 }
 
-.OriginCard11Front {
-    background-image: url("./images/11.png");
+.Card11Front {
+    background-image: url("https://live.staticflickr.com/65535/53468372262_2a082d06d4_n.jpg");
 }
 
-.OriginCard11Back {
-    background-image: url("./images/11.png");
+.Card11Back {
+    background-image: url("https://live.staticflickr.com/65535/53468372262_2a082d06d4_n.jpg");
     opacity: .8;
 }
 
-.OriginCard12Front {
-    background-image: url("./images/12.png");
+.Card12Front {
+    background-image: url("https://live.staticflickr.com/65535/53469416253_7871a19498_w.jpg");
 }
 
-.OriginCard12Back {
-    background-image: url("./images/12.png");
+.Card12Back {
+    background-image: url("https://live.staticflickr.com/65535/53469416253_7871a19498_w.jpg");
     opacity: .8;
 }
 
-.OriginCard13Front {
-    background-image: url("./images/13.png");
+.Card13Front {
+    background-image: url("https://live.staticflickr.com/65535/53468371577_ab0244f8fb_n.jpg");
 }
 
-.OriginCard13Back {
-    background-image: url("./images/13.png");
+.Card13Back {
+    background-image: url("https://live.staticflickr.com/65535/53468371577_ab0244f8fb_n.jpg");
     opacity: .8;
 }
