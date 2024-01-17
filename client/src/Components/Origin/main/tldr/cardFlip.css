@@ -110,119 +110,115 @@
 }
 
 /* Card Images */
-.Card1Front {
-    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
+.OriginCard1Front {
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");}
+
+.OriginCard1Back {
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");    opacity: .8;
 }
 
-.Card1Back {
-    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
-    opacity: .8;
+.OriginCard2Front {
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");}
+
+.OriginCard2Back {
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");    opacity: .8;
 }
 
-.Card2Front {
-    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
-}
-
-.Card2Back {
-    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
-    opacity: .8;
-}
-
-.Card3Front {
+.OriginCard3Front {
     background-image: url("https://live.staticflickr.com/65535/53469699830_5b4b2f9ca2_n.jpg");
 }
 
-.Card3Back {
+.OriginCard3Back {
     background-image: url("https://live.staticflickr.com/65535/53469699830_5b4b2f9ca2_n.jpg");
     opacity: .8;
 }
 
-.Card4Front {
+.OriginCard4Front {
     background-image: url("https://live.staticflickr.com/65535/53469699395_237f6587f5_w.jpg");
 }
 
-.Card4Back {
+.OriginCard4Back {
     background-image: url("https://live.staticflickr.com/65535/53469699395_237f6587f5_w.jpg");
     opacity: .8;
 }
 
-.Card5Front {
+.OriginCard5Front {
     background-image: url("https://live.staticflickr.com/65535/53469279366_3388c7ab53_n.jpg");
 }
 
-.Card5Back {
+.OriginCard5Back {
     background-image: url("https://live.staticflickr.com/65535/53469279366_3388c7ab53_n.jpg");
     opacity: .8;
 }
 
-.Card6Front {
+.OriginCard6Front {
     background-image: url("https://live.staticflickr.com/65535/53469417558_6c5233b03f_n.jpg");
 }
 
-.Card6Back {
+.OriginCard6Back {
     background-image: url("https://live.staticflickr.com/65535/53469417558_6c5233b03f_n.jpg");
     opacity: .8;
 }
 
-.Card7Front {
+.OriginCard7Front {
     background-image: url("https://live.staticflickr.com/65535/53469598309_d3e0642100_n.jpg");
 }
 
-.Card7Back {
+.OriginCard7Back {
     background-image: url("https://live.staticflickr.com/65535/53469598309_d3e0642100_n.jpg");
     opacity: .8;
 }
 
-.Card8Front {
+.OriginCard8Front {
     background-image: url("https://live.staticflickr.com/65535/53469416713_c1961346bd_n.jpg");
 }
 
-.Card8Back {
+.OriginCard8Back {
     background-image: url("https://live.staticflickr.com/65535/53469416713_c1961346bd_n.jpg");
     opacity: .8;
 }
 
-.Card9Front {
+.OriginCard9Front {
     background-image: url("https://live.staticflickr.com/65535/53468372612_8780aaab7f_w.jpg");
 }
 
-.Card9Back {
+.OriginCard9Back {
     background-image: url("https://live.staticflickr.com/65535/53468372612_8780aaab7f_w.jpg");
     opacity: .8;
 }
 
-.Card10Front {
+.OriginCard10Front {
     background-image: url("https://live.staticflickr.com/65535/53469698845_cac73b2f8f_n.jpg");
 }
 
-.Card10Back {
+.OriginCard10Back {
     background-image: url("https://live.staticflickr.com/65535/53469698845_cac73b2f8f_n.jpg");
     opacity: .8;
 }
 
-.Card11Front {
+.OriginCard11Front {
     background-image: url("https://live.staticflickr.com/65535/53468372262_2a082d06d4_n.jpg");
 }
 
-.Card11Back {
+.OriginCard11Back {
     background-image: url("https://live.staticflickr.com/65535/53468372262_2a082d06d4_n.jpg");
     opacity: .8;
 }
 
-.Card12Front {
+.OriginCard12Front {
     background-image: url("https://live.staticflickr.com/65535/53469416253_7871a19498_w.jpg");
 }
 
-.Card12Back {
+.OriginCard12Back {
     background-image: url("https://live.staticflickr.com/65535/53469416253_7871a19498_w.jpg");
     opacity: .8;
 }
 
-.Card13Front {
+.OriginCard13Front {
     background-image: url("https://live.staticflickr.com/65535/53468371577_ab0244f8fb_n.jpg");
 }
 
-.Card13Back {
+.OriginCard13Back {
     background-image: url("https://live.staticflickr.com/65535/53468371577_ab0244f8fb_n.jpg");
     opacity: .8;
 }
