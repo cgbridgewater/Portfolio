@@ -164,11 +164,14 @@
 }
 @media screen and (max-width: 600px){
 	.TitleName, .Tldr {
-		font-size: 1.8rem;
+		font-size: 1.65rem;
 		transition: .3s;
 	}
+	.TitleOf{
+		font-size: 1.0rem;
+	}
 	.TypingText, .FullStack{
-		font-size: 1.7rem;
+		font-size: 1.25rem;
 		transition: .3s;
 	}
 	.RotatingText{
