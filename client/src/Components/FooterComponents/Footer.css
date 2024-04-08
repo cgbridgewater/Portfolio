@@ -16,14 +16,17 @@ footer {
 	max-width: 1200px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: space-between;
 	font-size: 14px;
 	color: var(--color-1);
-}
 
-footer p {
-	margin:0;
-	color: var(--color-5);
+	p {
+		margin:0;
+		color: var(--color-5);
+	}
+	a {
+		color: var(--color-1);
+	}
 }
 
 @media (max-width: 600px) {

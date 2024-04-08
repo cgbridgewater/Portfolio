@@ -4,7 +4,7 @@ const Tldr = () => {
 
     return(
         <div>
-            <h3 className="Tldr">tl;dr</h3>
+            <h3 id="tldr" className="Tldr">tl;dr</h3>
             <p className="ContentTextSmall">
                 (hover or click on images to tell the story)
             </p>

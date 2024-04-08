@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Contact from "../Components/ContactComponents/ContactComponent/Contact";
 import Footer from "../Components/FooterComponents/Footer";
 import Navbar from "../Components/NavbarComponents/Navbar";
@@ -7,6 +8,11 @@ import '../App.css';
 
 
 const Index = () => {
+
+    useEffect(() => {
+        window.scrollTo(0,0)
+    },[])
+
 
     return(
         <div>

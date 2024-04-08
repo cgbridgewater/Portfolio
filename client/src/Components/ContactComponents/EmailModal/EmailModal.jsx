@@ -63,7 +63,7 @@ const Email = () => {
                     {/* form */}
                     <form  id="contactForm" onSubmit={onSubmitHandler}>
                         {/* name section */}
-                        <label htmlFor="name" id="nameLabel">
+                        <label htmlFor="nameInput" id="nameLabel">
                             Name
                         </label>
                         <br />
@@ -73,11 +73,12 @@ const Email = () => {
                         placeholder="Provide your name" 
                         onChange={(e) => setName(e.target.value)}
                         name="name"
+                        autoComplete="name"
                         required
                         />
                         {/* end name section */}
                         {/* email section */}
-                        <label htmlFor="email" id="emailLabel">
+                        <label htmlFor="emailInput" id="emailLabel">
                             Email
                         </label>
                         <br />
@@ -87,11 +88,12 @@ const Email = () => {
                         placeholder="Provide your email" 
                         onChange={(e) => setEmail(e.target.value)}
                         name="email"
+                        autoComplete="email"
                         required
                         />
                         {/* end email section */}
                         {/* message section */}
-                        <label htmlFor="message" id="messageLabel">
+                        <label htmlFor="messageInput" id="messageLabel">
                             Message
                         </label>
                         <br />

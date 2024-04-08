@@ -28,7 +28,7 @@
     color: inherit;
     cursor: pointer;
     width: calc(33% - 2rem);
-    min-width: calc(33% - 2rem);
+    min-width: 250px;
     height: 400px;
     min-height: 400px;
     perspective: 1000px;
@@ -38,7 +38,7 @@
 }
 
 /* responsive adaption */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 875px) {
     .OriginCard {
         width: calc(50% - 3.5rem);
     }
