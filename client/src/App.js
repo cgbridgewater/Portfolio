@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@fontsource/syncopate"; 
 import Origin from './Views/Origin';
@@ -13,6 +13,7 @@ function App() {
           <Routes>
             <Route element={<Index/>} path="/" default />
             <Route element={<Origin/>} path="/origin"/>
+            <Route path="/:bad/*" element={<Navigate to="/"/>}/>
           </Routes>
         </BrowserRouter>
       </div>

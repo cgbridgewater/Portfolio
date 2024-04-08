@@ -4,7 +4,7 @@
 }
 
 .Origin {
-	background-color: #FCFEFF;
+	background-color: var(--color-1);
 	padding: 20px 0;
 }
 
@@ -25,7 +25,7 @@
 
 .TitleOf, .TitleName, .FullStack {
 	text-align: center;
-	color: #342833;
+	color: var(--color-6);
 	font-weight: 800;
 	font-family: "Syncopate";
 	margin: 0;
@@ -52,14 +52,14 @@
 
 .TypingText {
 	font-family: "Syncopate";
-	color: #342833;
+	color: var(--color-6);
 	font-weight:700;
 	font-size: 3rem;
 	margin: 0;
 }
 .TypingText span {
 	font-family: "Syncopate";
-	color: #FF5C03;
+	color: var(--color-5);
 	margin-left: 5px;
 	font-weight:900;
 }
@@ -82,11 +82,13 @@
 .ContentText,.ContentTextSmall {
 	color: #342833;
 	width: 85%;
+	max-width: 850px;
 	margin: 10px auto;
 	text-align: center;
 	font-family: "Syncopate";
 	font-weight: 300;
 	font-size: 1.8rem;
+	letter-spacing: .025rem;
 }
 
 .ContentText b {
@@ -168,7 +170,8 @@
 		transition: .3s;
 	}
 	.TitleOf{
-		font-size: 1.0rem;
+		margin: 5px;
+		font-size: 0.85rem;
 	}
 	.TypingText, .FullStack{
 		font-size: 1.25rem;
@@ -183,7 +186,8 @@
 		margin-left: -25px;
 	}
 	.ContentText{
-		font-size: 1.2rem;
+		width: 75%;
+		font-size: 1.1rem;
 		transition: .3s;
 	}
 	.List{

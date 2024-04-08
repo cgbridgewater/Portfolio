@@ -12,13 +12,15 @@
 
 /* Backside of card text box */
 .OriginCardText {
-    color: #FF5C03;
+    color: var(--color-5);
     font-weight: 800;
     font-size: 13px;
-    background: #342833;
-    border-radius: 5px;
-    padding: 2px 5px;
+    border-top: thin solid var(--color-5);
+    border-bottom: thin solid var(--color-5);
+    background: var(--color-6);
+    padding: 8px;
     font-family: "Syncopate";
+    width: 100%;
 }
 
 /* Style For the card itself */
@@ -32,7 +34,7 @@
     perspective: 1000px;
     margin: 1rem;
     position: relative;  
-    filter: drop-shadow(8px 8px 8px black);
+    filter: drop-shadow(8px 8px 8px var(--color-9));
 }
 
 /* responsive adaption */
@@ -45,7 +47,7 @@
 /* responsive adaption */
 @media screen and (max-width: 500px) {
     .OriginCard {
-    width: 100%;
+    width: 85%;
     }
 }
 
@@ -65,8 +67,8 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    transition: ease-in-out 600ms;
-    padding: 5px;
+    transition: ease-in-out 700ms;
+    padding: 5px 0;
     overflow: hidden;
     font-family: Poppins, sans-serif;
 }
@@ -94,7 +96,7 @@
 
 .OriginCardBack {
     transform: rotateY(-180deg);
-    filter: drop-shadow(8px 8px 12px #FF5C03);
+    filter: drop-shadow(8px 8px 12px var(--color-5));
 }
 
 .OriginCard:hover .OriginCardBack {
@@ -111,17 +113,21 @@
 
 /* Card Images */
 .OriginCard1Front {
-    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");}
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
+}
 
 .OriginCard1Back {
-    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");    opacity: .8;
+    background-image: url("https://live.staticflickr.com/65535/53468373787_eeeec7eb57_w.jpg");
+    opacity: .8;
 }
 
 .OriginCard2Front {
-    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");}
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
+}
 
 .OriginCard2Back {
-    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");    opacity: .8;
+    background-image: url("https://live.staticflickr.com/65535/53469700000_25fcd413ee_n.jpg");
+    opacity: .8;
 }
 
 .OriginCard3Front {

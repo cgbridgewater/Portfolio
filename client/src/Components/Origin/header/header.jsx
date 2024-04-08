@@ -1,4 +1,4 @@
-import origin from "./images/originStory.jpg"
+import origin from "./images/originStory.png"
 import TypingText from "./typingText";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
             <TypingText/>
             <h1 className="FullStack">Full Stack</h1>
         </nav>
-    )
-}
+    );
+};
 
 export default Header;

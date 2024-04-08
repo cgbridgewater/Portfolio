@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Content = () => {
 
     return(
@@ -19,18 +21,18 @@ const Content = () => {
                 <li className="OriginLi">Developed a <b>growth mindset</b></li>
             </ul>
             <p className="ContentText">
-                As an Avid <b>self-learner</b>, his quest to become a professional software developer was not complete when he graduated. Current projects in progress include C# and Django. While <b>Ruby on Rails</b> may not be on his resume yet, Chris confidently states, "I can learn it and deliver a completed project within two weeks". He welcomes challenges and strives for <b>excellence</b>.
+                As an Avid <b>self-learner</b>, his quest to become a professional software developer was not complete when he graduated. Current projects in progress include C# and Django. He welcomes challenges and strives for <b>excellence</b>.
             </p>
             <br />
             <p className="ContentText">
                 For more information and project examples, visit
             </p>
             <p className="ContentText">
-                <a className="PortfolioLink" href="https://www.chrisbridgewater.com/" target="_blank" rel="noreferrer noopener">chrisbridgewater.com</a> 
+                <Link className="PortfolioLink" to="/">chrisbridgewater.com</Link> 
             </p>
             <br />
             <p className="ContentText">
-                The story doesn’t end here, but rather takes an exciting turn in the next chapter when he joins your team at <b>Inside.com</b> to build rad products with rad people!
+                The story doesn’t end here, but rather takes an exciting turn in the next chapter...
             </p>
             <h3 className="ContentText Pulse">
                 Stay tuned for more details!
